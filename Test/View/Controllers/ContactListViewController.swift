@@ -7,6 +7,8 @@
 
 import UIKit
 
+
+
 class ContactListViewController: UIViewController {
     var contactListViewModel = ContactListViewModel()
     @IBOutlet weak var tableView: UITableView!
