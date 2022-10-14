@@ -1,9 +1,4 @@
-//
-//  NetWorkManager.swift
-//  Test
-//
-//  Created by Vishnu Dev on 06/10/22.
-//
+
 
 import Foundation
 //Body - email, password (nidhinnp@gmail.com, 12345678Np)
