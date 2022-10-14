@@ -17,8 +17,6 @@ class ContactListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        
         tableView.register(ContactListTableViewCell.nib(), forCellReuseIdentifier: ContactListTableViewCell.nameOfClass)
         tableView.delegate = contactListViewModel
         tableView.dataSource = contactListViewModel
