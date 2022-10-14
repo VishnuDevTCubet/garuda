@@ -17,6 +17,16 @@
 		D203B2CF28EED1A300DB89C6 /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203B2CE28EED1A300DB89C6 /* TestTests.swift */; };
 		D203B2D928EED1A300DB89C6 /* TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203B2D828EED1A300DB89C6 /* TestUITests.swift */; };
 		D203B2DB28EED1A300DB89C6 /* TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203B2DA28EED1A300DB89C6 /* TestUITestsLaunchTests.swift */; };
+		D203B2E828EED6C500DB89C6 /* HelperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203B2E728EED6C500DB89C6 /* HelperClass.swift */; };
+		D203B2EA28EED7AE00DB89C6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203B2E928EED7AE00DB89C6 /* SignInViewController.swift */; };
+		D203B2ED28EEDDE200DB89C6 /* ContactListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203B2EB28EEDDE200DB89C6 /* ContactListTableViewCell.swift */; };
+		D203B2EE28EEDDE200DB89C6 /* ContactListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D203B2EC28EEDDE200DB89C6 /* ContactListTableViewCell.xib */; };
+		D203B2F028EEDFCD00DB89C6 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203B2EF28EEDFCD00DB89C6 /* ContactListViewController.swift */; };
+		D203B2F228EEE0FF00DB89C6 /* ContactListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203B2F128EEE0FF00DB89C6 /* ContactListViewModel.swift */; };
+		D203B2F828EEE58000DB89C6 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203B2F728EEE58000DB89C6 /* ContactDetailsViewController.swift */; };
+		D203B2FA28EEECFF00DB89C6 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203B2F928EEECFF00DB89C6 /* NetWorkManager.swift */; };
+		D203B2FC28EEF24A00DB89C6 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203B2FB28EEF24A00DB89C6 /* LoginModel.swift */; };
+		D203B2FE28EEFCC600DB89C6 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203B2FD28EEFCC600DB89C6 /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,16 @@
 		D203B2D428EED1A300DB89C6 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D203B2D828EED1A300DB89C6 /* TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITests.swift; sourceTree = "<group>"; };
 		D203B2DA28EED1A300DB89C6 /* TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D203B2E728EED6C500DB89C6 /* HelperClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperClass.swift; sourceTree = "<group>"; };
+		D203B2E928EED7AE00DB89C6 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D203B2EB28EEDDE200DB89C6 /* ContactListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListTableViewCell.swift; sourceTree = "<group>"; };
+		D203B2EC28EEDDE200DB89C6 /* ContactListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactListTableViewCell.xib; sourceTree = "<group>"; };
+		D203B2EF28EEDFCD00DB89C6 /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		D203B2F128EEE0FF00DB89C6 /* ContactListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewModel.swift; sourceTree = "<group>"; };
+		D203B2F728EEE58000DB89C6 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
+		D203B2F928EEECFF00DB89C6 /* NetWorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
+		D203B2FB28EEF24A00DB89C6 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		D203B2FD28EEFCC600DB89C6 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +121,17 @@
 		D203B2B328EED1A200DB89C6 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				D203B2F528EEE11D00DB89C6 /* Model */,
+				D203B2F428EEE10E00DB89C6 /* ViewModel */,
+				D203B2F328EEE10600DB89C6 /* View */,
 				D203B2B428EED1A200DB89C6 /* AppDelegate.swift */,
 				D203B2B628EED1A200DB89C6 /* SceneDelegate.swift */,
-				D203B2B828EED1A200DB89C6 /* ViewController.swift */,
-				D203B2BA28EED1A200DB89C6 /* Main.storyboard */,
+				D203B2F928EEECFF00DB89C6 /* NetWorkManager.swift */,
 				D203B2C028EED1A300DB89C6 /* Assets.xcassets */,
 				D203B2C228EED1A300DB89C6 /* LaunchScreen.storyboard */,
 				D203B2C528EED1A300DB89C6 /* Info.plist */,
 				D203B2BD28EED1A200DB89C6 /* Test.xcdatamodeld */,
+				D203B2E728EED6C500DB89C6 /* HelperClass.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -128,6 +151,45 @@
 				D203B2DA28EED1A300DB89C6 /* TestUITestsLaunchTests.swift */,
 			);
 			path = TestUITests;
+			sourceTree = "<group>";
+		};
+		D203B2F328EEE10600DB89C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D203B2BA28EED1A200DB89C6 /* Main.storyboard */,
+				D203B2F628EEE15A00DB89C6 /* Controllers */,
+				D203B2EB28EEDDE200DB89C6 /* ContactListTableViewCell.swift */,
+				D203B2EC28EEDDE200DB89C6 /* ContactListTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D203B2F428EEE10E00DB89C6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D203B2F128EEE0FF00DB89C6 /* ContactListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D203B2F528EEE11D00DB89C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D203B2FB28EEF24A00DB89C6 /* LoginModel.swift */,
+				D203B2FD28EEFCC600DB89C6 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D203B2F628EEE15A00DB89C6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D203B2EF28EEDFCD00DB89C6 /* ContactListViewController.swift */,
+				D203B2E928EED7AE00DB89C6 /* SignInViewController.swift */,
+				D203B2B828EED1A200DB89C6 /* ViewController.swift */,
+				D203B2F728EEE58000DB89C6 /* ContactDetailsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D203B2EE28EEDDE200DB89C6 /* ContactListTableViewCell.xib in Resources */,
 				D203B2C428EED1A300DB89C6 /* LaunchScreen.storyboard in Resources */,
 				D203B2C128EED1A300DB89C6 /* Assets.xcassets in Resources */,
 				D203B2BC28EED1A200DB89C6 /* Main.storyboard in Resources */,
@@ -261,10 +324,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D203B2F828EEE58000DB89C6 /* ContactDetailsViewController.swift in Sources */,
+				D203B2FC28EEF24A00DB89C6 /* LoginModel.swift in Sources */,
+				D203B2F228EEE0FF00DB89C6 /* ContactListViewModel.swift in Sources */,
 				D203B2B928EED1A200DB89C6 /* ViewController.swift in Sources */,
+				D203B2F028EEDFCD00DB89C6 /* ContactListViewController.swift in Sources */,
+				D203B2FE28EEFCC600DB89C6 /* UserModel.swift in Sources */,
+				D203B2FA28EEECFF00DB89C6 /* NetWorkManager.swift in Sources */,
+				D203B2E828EED6C500DB89C6 /* HelperClass.swift in Sources */,
+				D203B2EA28EED7AE00DB89C6 /* SignInViewController.swift in Sources */,
 				D203B2BF28EED1A200DB89C6 /* Test.xcdatamodeld in Sources */,
 				D203B2B528EED1A200DB89C6 /* AppDelegate.swift in Sources */,
 				D203B2B728EED1A200DB89C6 /* SceneDelegate.swift in Sources */,
+				D203B2ED28EEDDE200DB89C6 /* ContactListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +527,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pixbit.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,6 +557,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pixbit.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
